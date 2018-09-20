@@ -1,2 +1,1 @@
-export const QUOTE = "QUOTE"
-export const AUTHOR = "AUTHOR"
+export const QUOTE = "QUOTE";
