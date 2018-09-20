@@ -18,19 +18,19 @@ class QuoteBox extends Component {
   render() {
     return (
       <div className="wrapper">
-        <h1>Find a Quote to Inspire You Today</h1>
+        <h1 className="page-title">Find a Quote to Inspire You Today</h1>
         <div id="quote-box">
           <div id="text">
-            <h2>{this.props.quote.quote}</h2>
+            <h3>{this.props.quote.quote}</h3>
           </div>
           <div id="author">
             <h3>{this.props.quote.author}</h3>
           </div>
-          <button><a id="tweet-quote" href="twitter.com/intent/tweet">Tweet</a></button>
+          <button id="tweet-quote"><a href="twitter.com/intent/tweet">Tweet</a></button>
           <button id="new-quote" onClick={this.handleChangeQuote}>New Quote</button>
           <p></p>
         </div>
-        <p>Quotes Provided by <a href="https://talaikis.com/random_quotes_api/">Tadas Talaikis</a></p>
+        <p className="credits">Quotes Provided by <a href="https://talaikis.com/random_quotes_api/">Tadas Talaikis</a></p>
       </div>
     );
   }
