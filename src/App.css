@@ -44,7 +44,10 @@ a {
 }
 
 button {
+  background-color: black;
+  border: none;
   font-size: 20px;
+  padding: 0 30px;
 }
 
 a {
