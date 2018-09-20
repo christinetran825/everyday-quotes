@@ -98,7 +98,9 @@ hr:after {
   height: 370px;
   position: relative;
   margin: 20px auto;
-  align-content: center;
+}
+
+#quote-content {
 }
 
 #text {
@@ -111,11 +113,9 @@ hr:after {
 }
 
 #new-quote {
-
 }
 
 #tweet-quote {
-
 }
 
 .box-buttons {

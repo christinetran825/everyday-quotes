@@ -26,17 +26,18 @@ class QuoteBox extends Component {
   render() {
     return (
       <div id="quote-box">
-        <div id="text">
-          <h3>{this.props.quote.quote}</h3>
-        </div>
-        <div id="author">
-          <h3>{this.props.quote.author}</h3>
+        <div id="quote-content">
+          <div id="text">
+            <h3>{this.props.quote.quote}</h3>
+          </div>
+          <div id="author">
+            <h3>{this.props.quote.author}</h3>
+          </div>
         </div>
         <div className="box-buttons">
           <button id="tweet-quote"><a href="twitter.com/intent/tweet">Tweet</a></button>
           <button id="new-quote" onClick={this.handleChangeQuote}>New Quote</button>
         </div>
-        <p></p>
       </div>
     );
   }
