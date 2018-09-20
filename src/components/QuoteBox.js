@@ -19,7 +19,7 @@ class QuoteBox extends Component {
     return (
       <div className="wrapper">
         <div id="quote-box">
-          <h1>hello</h1>
+          <h1>Find a Quote to Inspire You Today</h1>
           <div id="text">
             <h3>{this.props.quote.quote}</h3>
           </div>
