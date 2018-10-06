@@ -5,14 +5,14 @@ class QuotesPage extends Component {
   constructor(props){
     super(props);
     this.state = {
-      getQuoteBox:true
+      getQuoteBox:false
     };
     this.handleGetQuoteBox = this.handleGetQuoteBox.bind(this);
   }
 
   handleGetQuoteBox(e){
     this.setState({
-      getQuoteBox: false
+      getQuoteBox: true
     })
   }
 
